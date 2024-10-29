@@ -148,3 +148,8 @@ li.spaced {
   margin-bottom: .7em;
   line-height: 0;
 }
+
+li a::after {
+  content: ' ☍';
+  display: inline-block;
+}
